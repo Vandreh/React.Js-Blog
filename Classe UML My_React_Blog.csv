@@ -1,0 +1,49 @@
+Id,Nome,Biblioteca de formas,ID da p´ágina,Contido por,Grupo,Origem da linha,Destino da linha,Seta de origem,Seta de destino,Status,Área de texto 1,Área de texto 2,Comentários
+1,Documento,,,,,,,,,Rascunho,Classe UML My_React_Blog,,
+2,Página,,,,,,,,,,Classe UML,,
+3,Contêiner retangular arredondado,Formas/contêineres de fluxograma,2,,30,,,,,,,,
+4,Texto,Padrão,2,3,30,,,,,,Saiba mais sobre este modelo,,
+5,Texto,Padrão,2,3,30,,,,,,"Tutoriais de diagramas de classes UML
+(Segure Shift + ⌘ ou Ctrl, e clique)",,
+6,Botão,Maquetes IU,2,3,30,,,,,,Leia sobre diagramas de classes UML,,
+7,Botão,Maquetes IU,2,3,30,,,,,,Assista a um tutorial de diagramas de classes UML,,
+8,Imagem do usuário,Imagens do Usuário,2,3,30,,,,,,,,
+9,MinimalTextBlock,Padrão,2,3,30,,,,,,"Diagramas de classes UML mapeiam a estrutura de um determinado sistema modelando suas classes, seus atributos, operações e relações entre objetos. 
+
+Para personalizar este modelo:
+Clique em qualquer forma e digite as informações que você gostaria de incluir.
+Adicione e organize as formas conforme necessário.
+Atualizar a cardinalidade.
+Clique em uma linha e vá até a barra de propriedades para ajustar as extremidades.
+Clique em uma linha e paire o cursor sobre o ícone de engrenagem para adicionar multiplicidades.
+Adicione mais linhas pairando o cursor sobre uma forma e clicando no ponto vermelho",,
+10,Texto,Padrão,2,,31,,,,,,Classe UML My_React_Blog,,
+11,Texto,Padrão,2,,31,,,,,,"Vandreh Esmeraldo  |  May 27, 2024",,
+12,Classe,UML,2,,,,,,,,users,"id
+role_id",
+13,Classe,UML,2,,,,,,,,roles,id,
+14,Classe,UML,2,,,,,,,,permissions,"id
+action",
+15,Classe,UML,2,,,,,,,,blog_posts,"id
+author_id",
+16,Classe,UML,2,,,,,,,,blog_posts_comments,"id
+author_id
+post_id",
+17,Classe,UML,2,,,,,,,,role_permissions,"role_id
+permission_id",
+18,Classe,UML,2,,,,,,,,blog_posts_categories,"post_id
+category_id",
+19,Classe,UML,2,,,,,,,,blog_categories,id,
+20,Classe,UML,2,,,,,,,,blog_post_likes,"post_id
+author_id",
+21,Linha,,2,,31,,10,None,None,,,,
+22,Linha,,2,,,13,17,CFN ERD One Arrow,CFN ERD Many Arrow,,,,
+23,Linha,,2,,,14,17,CFN ERD One Arrow,CFN ERD Many Arrow,,,,
+24,Linha,,2,,,13,12,CFN ERD One Arrow,CFN ERD One Or More Arrow,,,,
+25,Linha,,2,,,12,15,CFN ERD One Arrow,CFN ERD One Or More Arrow,,,,
+26,Linha,,2,,,15,16,CFN ERD One Arrow,CFN ERD One Or More Arrow,,,,
+27,Linha,,2,,,19,18,CFN ERD One Arrow,CFN ERD One Or More Arrow,,,,
+28,Linha,,2,,,15,18,CFN ERD One Arrow,CFN ERD One Or More Arrow,,,,
+29,Linha,,2,,,15,20,CFN ERD One Arrow,CFN ERD One Or More Arrow,,,,
+30,Grupo 1,,2,,,,,,,,,,
+31,Grupo 2,,2,,,,,,,,,,
